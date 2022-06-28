@@ -14,9 +14,11 @@ public class J8_Switch {
         switch (a) {
 		case 1: {
 			System.out.println("one");
+			break;
 		}
 		case 2: {
 			System.out.println("two");
+			break;
 		}
 		default:
 			System.out.println("no match");
