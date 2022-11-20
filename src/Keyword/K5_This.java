@@ -4,8 +4,8 @@ class Calcul{
 	int num2;
 	int result;
 	public Calcul(int num1, int num2) {                   //default constr
-	this.num1=num1;    //current object
-	this.num2=num2;
+	this.num1=num1;    //current object 
+	this.num2=num2;     //instance variable- this.num1,   local variable-num1
 
 	
 	}
