@@ -1,6 +1,7 @@
 package OOPs;
 interface Laptop{
-	void play() ;   //public , final , abstract
+	void play() ;   //public , final , abstract  we donot define abstraxt(by default all interface are public abstract) mtd
+	
 	
 }
 class Acer implements Laptop{
