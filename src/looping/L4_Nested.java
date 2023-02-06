@@ -1,4 +1,4 @@
-package Loop;
+package looping;
 
 public class L4_Nested {
 	public static void main(String[] args) {

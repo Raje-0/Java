@@ -1,7 +1,7 @@
 package Basic;
 
 import java.util.Scanner;
-
+//it is a short hand of if else
 public class J9_TernaryOPerator {
 
 	public static void main(String[] args) {
