@@ -1,4 +1,4 @@
-package Loop;
+package looping;
 
 public class L5_InhanceForLoop {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Loop;
+package looping;
 
 public class L7_While {
 	// Java program to illustrate while loop.
