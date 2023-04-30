@@ -14,7 +14,7 @@ public class Sum_of_n_natural_no {
 			sum += i;
 			i++;
 		}
-		System.out.println("sum of n natural no is " + sum);
+		System.out.println("sum of n natural no is =" + sum);
 	}
 
 }
