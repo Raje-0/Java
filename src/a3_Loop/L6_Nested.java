@@ -1,6 +1,6 @@
-package a2_Conditional_Statement;
+package a3_Loop;
 
-public class L4_Nested {
+public class L6_Nested {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 for(int i=1;i<=6;i++) {
