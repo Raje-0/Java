@@ -1,4 +1,4 @@
-package looping;
+package a2_Conditional_Statement;
 
 public class L4_Nested {
 	public static void main(String[] args) {

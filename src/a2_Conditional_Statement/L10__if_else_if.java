@@ -1,4 +1,4 @@
-package looping;
+package a2_Conditional_Statement;
 
 public class L10__if_else_if {
 

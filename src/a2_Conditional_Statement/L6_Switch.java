@@ -1,4 +1,4 @@
-package looping;
+package a2_Conditional_Statement;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package looping;
+package a2_Conditional_Statement;
 
-public class L9_if_else {
+public class C2_if_else {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,13 +11,17 @@ public class L9_if_else {
 		      System.out.println("The number is positive.");
 		    }
 		    
+		    
+		    if (number < 100) {
+			      System.out.println("The number is less than 100 .");
+			    }
 		    // execute this block
 		    // if number is not greater than 0
 		    else {
 		      System.out.println("The number is not positive.");
 		    }
 
-		    System.out.println("Statement outside if...else block");
+		    
 	}
 
 }
