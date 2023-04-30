@@ -1,4 +1,4 @@
-package looping;
+package a2_Conditional_Statement;
 
 public class L7_While {
 	// Java program to illustrate while loop.

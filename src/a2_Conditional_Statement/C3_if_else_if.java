@@ -1,6 +1,6 @@
-package looping;
+package a2_Conditional_Statement;
 
-public class L10__if_else_if {
+public class C3_if_else_if {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

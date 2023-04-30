@@ -1,4 +1,4 @@
-package looping;
+package a3_Loop;
 
 public class L1_for {
 

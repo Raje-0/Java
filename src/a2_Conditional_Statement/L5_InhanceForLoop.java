@@ -1,4 +1,4 @@
-package looping;
+package a2_Conditional_Statement;
 
 public class L5_InhanceForLoop {
 	public static void main(String[] args) {
