@@ -1,6 +1,6 @@
-package a2_Conditional_Statement;
+package a3_Loop;
 
-public class L5_InhanceForLoop {
+public class L7_InhanceForLoop {
 	public static void main(String[] args) {
 		int a[]= {1,2,3,5,85,3};
 		for(int i=0;i<6;i++) {

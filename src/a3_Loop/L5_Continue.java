@@ -1,6 +1,6 @@
-package a2_Conditional_Statement;
+package a3_Loop;
 
-public class L2_Continue {
+public class L5_Continue {
 
 	public static void main(String[] args) {
 		for(int a=0;a<=10;a++) {
