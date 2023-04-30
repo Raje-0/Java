@@ -1,4 +1,4 @@
-package pattern_Printing;
+package a4_Pattern_Printing;
 
 public class Triangle_of_shape_of_equilateral {
 	  public static void main(String[] args) {

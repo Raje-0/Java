@@ -1,4 +1,4 @@
-package pattern_Printing;
+package a4_Pattern_Printing;
 
 public class Squre_of_star {
 	 public static void main(String[] args) {
