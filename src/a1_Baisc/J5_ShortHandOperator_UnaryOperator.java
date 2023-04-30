@@ -1,6 +1,6 @@
-package Basic;
+package a1_Baisc;
 
-public class J5_ShortHandOperator {
+public class J5_ShortHandOperator_UnaryOperator {
 
 	public static void main(String[] args) {
 		int m=4;
