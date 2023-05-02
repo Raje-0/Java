@@ -1,4 +1,4 @@
-package OOPs;
+package a5_method_function;
 /*
  * 
  */
@@ -15,7 +15,7 @@ class B extends A {
 	}
 }
 
-public class O10_MtdOverriding {
+public class M2_Method_Overloading {
 
 	public static void main(String[] args) {
 
