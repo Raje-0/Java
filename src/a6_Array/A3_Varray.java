@@ -1,4 +1,4 @@
-package Array;
+package a6_Array;
 
 class Calc {
 	public int add(int... n) {

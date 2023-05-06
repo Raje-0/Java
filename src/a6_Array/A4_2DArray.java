@@ -1,4 +1,4 @@
-package Array;
+package a6_Array;
 
 public class A4_2DArray {
 	public static void main(String[] args) {

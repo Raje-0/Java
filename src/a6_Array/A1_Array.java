@@ -1,4 +1,4 @@
-package Array;
+package a6_Array;
 
 public class A1_Array {
 
