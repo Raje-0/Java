@@ -1,6 +1,6 @@
 package a6_Array;
 
-public class AQ_7_Reverse_an_Array {
+public class AQ7_Reverse_an_Array {
 	public static void reverse(int no[]) {
 		int first = 0, last = no.length - 1;
 		while (first < last) {
