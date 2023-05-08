@@ -1,4 +1,4 @@
-package a3_Loop.Question;
+package common_Question;
 
 import java.util.Scanner;
 

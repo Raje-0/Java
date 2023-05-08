@@ -1,4 +1,4 @@
-package a5_method_function.Question;
+package common_Question;
 
 public class Print_all_prime_in_a_range {
 	public static boolean isPrime(int n) {

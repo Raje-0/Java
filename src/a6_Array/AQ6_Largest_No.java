@@ -1,6 +1,6 @@
 package a6_Array;
 
-public class A6_Largest_No {
+public class AQ6_Largest_No {
 	public static int getLargest(int no[]) {
 		int largest = Integer.MIN_VALUE;
 		for (int i = 0; i < no.length; i++) {

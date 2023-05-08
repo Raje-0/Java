@@ -1,4 +1,4 @@
-package a5_method_function.Question;
+package common_Question;
 
 import java.util.*;
 

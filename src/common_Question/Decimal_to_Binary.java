@@ -1,4 +1,4 @@
-package a5_method_function.Question;
+package common_Question;
 
 public class Decimal_to_Binary {
 	public static void decToBin(int n) {
