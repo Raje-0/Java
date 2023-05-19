@@ -1,6 +1,6 @@
 package a6_Array_2D;
 
-public class A4_2DArray {
+public class A1_2DArray {
 	public static void main(String[] args) {
 		int[] num1= {1,2,3,4};
 		int num2 [] = {5,4,3,2};
