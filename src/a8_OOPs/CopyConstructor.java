@@ -1,7 +1,7 @@
 //Like C++, Java also supports the copy constructor. But in C++ it is created by default.
 //While in Java we define copy constructor our own.
 
-package methodAndConstuctor;
+package a8_OOPs;
 
 //Java Program to Illustrate Copy Constructor
 
