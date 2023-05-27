@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="J4_DSA"/>
+	<classpathentry kind="src" path="J5_Collection_Framework"/>
+	<classpathentry kind="src" path="J6_Advance_JAVA"/>
+	<classpathentry kind="src" path="J1_JAVA_Basic"/>
+	<classpathentry kind="src" path="J2_OOPS"/>
+	<classpathentry kind="src" path="J3_Exceptional_Handling"/>
+	<classpathentry kind="src" path="J7_Questions"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
