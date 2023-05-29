@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="5_CollectionFramework"/>
 	<classpathentry kind="src" path="6_Advance_JAVA"/>
 	<classpathentry kind="src" path="7_Questions"/>
+	<classpathentry kind="src" path="8_etc"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
