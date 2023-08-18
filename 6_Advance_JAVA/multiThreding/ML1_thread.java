@@ -1,4 +1,4 @@
-package MultiThreding;
+package multiThreding;
 
 class Hi extends Thread {
 	public void run() {
