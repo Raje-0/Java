@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="1_JAVA_Basic"/>
-	<classpathentry kind="src" path="2_OOPS"/>
-	<classpathentry kind="src" path="3_Exceptional_Handling"/>
-	<classpathentry kind="src" path="4_DSA"/>
-	<classpathentry kind="src" path="5_CollectionFramework"/>
-	<classpathentry kind="src" path="6_Advance_JAVA"/>
-	<classpathentry kind="src" path="7_Questions"/>
+	<classpathentry kind="src" path="Basic"/>
+	<classpathentry kind="src" path="OOPS"/>
+	<classpathentry kind="src" path="Exceptional_Handling"/>
+	<classpathentry kind="src" path="DSA"/>
+	<classpathentry kind="src" path="CollectionFramework"/>
+	<classpathentry kind="src" path="Advance_JAVA"/>
 	<classpathentry kind="src" path="8_etc"/>
+	<classpathentry kind="src" path="Arrays"/>
+	<classpathentry kind="src" path="Sorting"/>
+	<classpathentry kind="src" path="String"/>
+	<classpathentry kind="src" path="BitManipulation"/>
+	<classpathentry kind="src" path="Recursion"/>
+	<classpathentry kind="src" path="DivideAndConquer"/>
+	<classpathentry kind="src" path="Backtracking"/>
+	<classpathentry kind="src" path="LinkedList"/>
+	<classpathentry kind="src" path="Stacks"/>
+	<classpathentry kind="src" path="Queues"/>
+	<classpathentry kind="src" path="GreedyAlgorithm"/>
+	<classpathentry kind="src" path="BinaryTree"/>
+	<classpathentry kind="src" path="BinarysearchTree"/>
+	<classpathentry kind="src" path="Heap/PriorityQueue"/>
+	<classpathentry kind="src" path="Hashing"/>
+	<classpathentry kind="src" path="Tries"/>
+	<classpathentry kind="src" path="Graphs"/>
+	<classpathentry kind="src" path="DP"/>
+	<classpathentry kind="src" path="SegmentTrees"/>
+	<classpathentry kind="src" path="InterviewQuestion"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="7_Questions"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
