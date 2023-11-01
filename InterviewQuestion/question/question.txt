@@ -1,0 +1,47 @@
+Java is a high-level, object-oriented programming language originally developed by
+ Sun Microsystems (acquired by Oracle Corporation in 2010). It is known for its platform independence,
+ meaning that once a Java program is written, it can run on any device that has a 
+ Java Virtual Machine (JVM) installed, regardless of the underlying computer architecture.
+
+Some key features of Java include:
+
+1. **Platform independence**: Java programs are compiled into an intermediate bytecode format that can run
+ on any device with a compatible JVM.
+
+2. **Object-oriented programming (OOP)**: Java supports the creation and use of reusable and modular
+ code through the use of classes and objects.
+
+3. **Robust and secure**: Java is designed to prevent certain types of programming errors. 
+It also has a strong security model that protects against viruses and other malicious software.
+
+4. **Rich standard library**: Java comes with a vast standard library that provides support
+ for a wide range of tasks, from basic input and output to networking and database access.
+
+5. **Multithreading**: Java supports multithreading, allowing for the concurrent execution
+ of multiple tasks within a single program.
+
+Java is widely used for developing a variety of applications, including web applications,
+ mobile applications, enterprise software, and embedded systems. It is also the primary language
+  for developing Android applications. Additionally, it has a large and active community, which 
+  contributes to its extensive ecosystem of tools, libraries, and frameworks.
+  
+  
+  
+  
+Q-java is compiler or interpreter?
+
+
+Java is both a compiled and interpreted programming language. Java source code is compiled 
+into bytecode, which is then interpreted by the Java Virtual Machine (JVM). The Java compiler 
+converts the source code into an intermediate language called bytecode, which can run on any 
+platform that has a compatible JVM. This characteristic of Java makes it a platform-independent 
+language, as the bytecode can be executed on any system that has the appropriate JVM installed. 
+This combination of compilation and interpretation allows for both efficiency and portability in 
+Java applications.
+  
+  
+  
+  
+  
+  
+  

@@ -3,7 +3,8 @@ package a1_Baisc;
 public class J2_Variable {
 
 	public static void main(String[] args) {
-
+//B--B--S--C--L--F--D
+//1--1--2--2--8--4--8
 		byte j = 5;
 
 		char ram = 'a';

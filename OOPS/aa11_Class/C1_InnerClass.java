@@ -1,5 +1,9 @@
 package aa11_Class;
 
+/*
+ * a innner class is a class that is describe inside another class
+ * it is used to create healper class
+ */
 class Outer {
 
 	public void show() {
@@ -7,7 +11,7 @@ class Outer {
 	}
 
 	class Inner {
-		public void display() {
+		public void display() {  //mtd of inner class
 			System.out.println("I am inner class");
 		}
 	}
