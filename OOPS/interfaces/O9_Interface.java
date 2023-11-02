@@ -1,6 +1,7 @@
 package interfaces;
 interface Laptop{
-	void play() ;   //public , final , abstract  we donot define abstraxt(by default all interface are public abstract) mtd
+	void play() ;   
+	//public , final , abstract  we donot define abstraxt(by default all interface are public abstract) mtd
 	
 	
 }
