@@ -32,7 +32,7 @@ class Chicken extends Animal {
 
 }
 
-public class O8_Abstraction {
+public class A1_Abstraction {
 
 	public static void main(String[] args) {
 Horse h1 = new Horse();

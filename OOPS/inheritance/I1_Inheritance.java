@@ -26,7 +26,7 @@ class Circle extends Shape{
 	}
 }
 
-public class O5_Inheritance {
+public class I1_Inheritance {
 
 	public static void main(String[] args) {
 		Triangle t1 = new Triangle();

@@ -1,4 +1,4 @@
-package polymorphism;
+ package polymorphism;
 
 class Student1 {
 	String name;
@@ -19,7 +19,7 @@ class Student1 {
 	}
 }
 
-public class O4_Polymorphism {
+public class Polymorphism {
 
 	public static void main(String[] args) {
 		Student1 a = new Student1();
