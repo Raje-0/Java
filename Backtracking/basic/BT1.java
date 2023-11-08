@@ -1,4 +1,4 @@
-package dsa6_Backtracking;
+package basic;
 
 public class BT1 {
 
