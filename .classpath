@@ -27,6 +27,7 @@
 	<classpathentry kind="src" path="DP"/>
 	<classpathentry kind="src" path="SegmentTrees"/>
 	<classpathentry kind="src" path="InterviewQuestion"/>
+	<classpathentry kind="src" path="infosis"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>

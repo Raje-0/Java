@@ -1,6 +1,6 @@
 package stacks_Basic;
 
-public class LinkedList_stacks {
+public class S2_LinkedList_stacks {
 	static class Node {
 		int data;
 		Node next;
@@ -14,6 +14,7 @@ public class LinkedList_stacks {
 	static class Stack {
 		static Node head = null;
 
+       //is Empty
 		public static boolean isEmpty() {
 			return head == null;
 		}

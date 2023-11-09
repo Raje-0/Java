@@ -2,7 +2,7 @@ package stacks_Basic;
 
 import java.util.Stack;
 
-public class Colections_Stacks {
+public class S3_Colections_Stacks {
 
 	public static void main(String[] args) {
 		// Stack s = new Stack();

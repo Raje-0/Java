@@ -1,7 +1,5 @@
 package linkesList;
 
-import linkesList.Basic.Node;
-
 public class ReverseLL {
 	public static class Node {
 		int data;

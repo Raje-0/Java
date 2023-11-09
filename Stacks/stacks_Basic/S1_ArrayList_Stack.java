@@ -2,7 +2,7 @@ package stacks_Basic;
 
 import java.util.ArrayList;
 
-public class ArrayList_Stack {
+public class S1_ArrayList_Stack {
 	static class Stack {
 		static ArrayList<Integer> list = new ArrayList<>();
 
@@ -20,7 +20,7 @@ public class ArrayList_Stack {
 			if (isEmpty()) {
 				return -1;
 			}
-			int top = list.get(list.size() - 1);
+			int top = list.get(list.size() - 1); //list.size() - 1=last index
 			list.remove(list.size() - 1);
 			return top;
 		}
