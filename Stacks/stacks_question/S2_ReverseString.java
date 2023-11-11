@@ -3,6 +3,7 @@ package stacks_question;
 import java.util.Stack;
 
 public class S2_ReverseString {
+	
 	// Method 5: Using Stack
 	public static String reverseStringUsingStack(String input) {
 		Stack<Character> stack = new Stack<>();
