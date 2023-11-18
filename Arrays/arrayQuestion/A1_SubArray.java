@@ -4,7 +4,7 @@ package arrayQuestion;
 For example, consider the array [1, 2, 3, 4], There are 10 non-empty sub-arrays.
 The sub arrays are (1), (2), (3), (4), (1,2), (2,3), (3,4), (1,2,3), (2,3,4) and (1,2,3,4).*/
 
-public class SubArray {
+public class A1_SubArray {
 	public static void subArray(int arr[]) {
 		for (int i = 0; i < arr.length; i++) {
 			int start = i;

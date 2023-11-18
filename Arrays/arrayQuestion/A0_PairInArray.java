@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-public class PairInArray {
+public class A0_PairInArray {
 
 	public static void pair(int arr[]) {
 		int tp = 0;

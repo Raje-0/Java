@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-public class MaxSubArray_BrutForce {
+public class A3_MaxSubArray_BrutForce {
 	public static void maxSubArray(int[] arr) {
 		int currSum = 0;
 		int maxSum = Integer.MIN_VALUE;

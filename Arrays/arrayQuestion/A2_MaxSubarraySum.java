@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-public class MaxSubarraySum {
+public class A2_MaxSubarraySum {
 	public static int maxSubArray(int[] nums) {
 		int maxSum = nums[0];
 		int currentSum = nums[0];

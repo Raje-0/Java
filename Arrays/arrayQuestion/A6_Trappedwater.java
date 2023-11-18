@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-class Trappedwater {
+class A6_Trappedwater {
 	public static int trap(int[] height) {
 		int n = height.length;
 

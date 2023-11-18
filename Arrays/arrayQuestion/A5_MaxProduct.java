@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-public class MaxProduct {
+public class A5_MaxProduct {
 	class Solution {
 	    public int maxProduct(int[] nums) {
 	        if (nums == null || nums.length == 0) {

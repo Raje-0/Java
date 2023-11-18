@@ -1,6 +1,6 @@
 package arrayQuestion;
 
-public class MaxSubArray_usingPrefixArray {
+public class A4_MaxSubArray_usingPrefixArray {
 	public static void maxSubArrayPrefix(int arr[]) {
 		int currSum = 0;
 		int maxSum = Integer.MIN_VALUE;
