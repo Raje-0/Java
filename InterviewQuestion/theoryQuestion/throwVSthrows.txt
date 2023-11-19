@@ -1,0 +1,17 @@
+throw- 
+* throw keyword is used to throw an exception explicitly.
+* throw keyword is used inside mtd body.
+* we can throw only one exception only one at a time.
+* to define exception
+* only used for single exception
+* it is followed by object
+* 
+
+
+
+throws-
+* throw keyword is used to declare an exception.
+* throw keyword is used with method signature.
+* we can handle multiple exception using throw keyword..
+* only used for multiple exception
+* it is followed by class(mtd) write beside method.

@@ -1,0 +1,15 @@
+array sort -primitive
+comparable and comparator for custom object sorting.
+
+Comparable- single sorting like we have id and name then we can sort on the basic of one of them.
+java.lang.
+The compareTo method is defined in the Comparable interface, and it is used to implement
+the natural ordering of objects.
+Comparable is for the natural ordering of objects,
+
+
+comparator- multiple sorting logic, 
+java.util
+The compare method is defined in the Comparator interface, and you can create multiple 
+comparators for a class to support different sorting orders.
+Comparator allows you to define custom ordering criteria.

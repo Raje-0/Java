@@ -2,6 +2,7 @@ package map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class HashMapExample {
     public static void main(String[] args) {
@@ -18,9 +19,12 @@ public class HashMapExample {
         System.out.println("Age of Bob: " + hashMap.get("Bob"));
 
         // Iterating over the HashMap
-        for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
-            System.out.println("Name: " + entry.getKey() + ", Age: " + entry.getValue());
+      for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+           System.out.println("Name: " + entry.getKey() + ", Age: " + entry.getValue());
         }
+      //apna college
+        Set <String> keys= hashMap.keySet();
+        System.out.println(keys);
 
         // Checking if a key exists
         String searchKey = "Charlie";
