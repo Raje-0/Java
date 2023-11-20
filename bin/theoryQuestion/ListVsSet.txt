@@ -1,0 +1,46 @@
+List--duplicate are allowed.
+      insertion order preserved.
+      
+ set--duplicate are not  allowed.
+      insertion order not preserved.
+          
+In Java, both List and Set are interfaces that are part of the Java Collections Framework, but they have
+ distinct characteristics and use cases. Here are the key differences between List and Set from an interview
+ perspective:
+
+* Ordering:
+
+List: A List is an ordered collection, meaning that it maintains the order of elements as they are inserted.
+ You can access elements in a List by their index, and they will be retrieved in the order they were added.
+ 
+Set: A Set is an unordered collection, so it does not guarantee any specific order of elements. Elements
+ are added in an unordered fashion, and you cannot rely on the order in which they were inserted.
+ 
+* Duplicates:
+
+List: A List allows duplicate elements. You can have multiple elements with the same value in a List.
+
+Set: A Set does not allow duplicate elements. If you try to add an element that already exists in the set, 
+it won't be added, and the set will remain unchanged.
+
+* Implementations:
+
+List: Common implementations of the List interface include ArrayList, LinkedList, and Vector. 
+Each implementation has its own characteristics, such as performance considerations for specific operations.
+
+Set: Common implementations of the Set interface include HashSet, LinkedHashSet, and TreeSet. HashSet 
+is the most commonly used implementation, offering constant-time performance for basic operations.
+
+* Use Cases:
+
+List: Use a List when you need to maintain the order of elements and allow duplicates. 
+It is suitable for scenarios where you need to access elements by index or iterate over them in a specific order.
+
+Set: Use a Set when you want to ensure that elements are unique and order is not important. It is useful 
+when you need to check for the presence of an element or perform set operations like union, intersection, 
+and difference.
+
+
+In summary, the choice between List and Set depends on the specific requirements of your application. 
+If you need an ordered collection that allows duplicates, use a List. If uniqueness and order are not important, 
+and you want to ensure that elements are distinct, use a Set.

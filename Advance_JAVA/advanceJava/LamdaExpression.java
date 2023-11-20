@@ -1,5 +1,5 @@
 package advanceJava;
-
+//functional interface = only one mtd 
 @FunctionalInterface
  interface  A {
 	void show();

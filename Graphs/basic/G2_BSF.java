@@ -23,6 +23,7 @@ public class G2_BSF {
 		}
 		graph[0].add(new Edge(0, 1, 1));
 		graph[0].add(new Edge(0, 2, 1));
+		
 		graph[1].add(new Edge(1, 0, 1));
 		graph[1].add(new Edge(1, 3, 1));
 		graph[2].add(new Edge(2, 0, 1));
@@ -40,6 +41,8 @@ public class G2_BSF {
 	}
 
 	public static void bfs(ArrayList<Edge> graph[], int V) {
+	
+		
 		boolean visited[] = new boolean[V];
 		Queue<Integer> q = new LinkedList<>();
 		q.add(0); // Source = 0
@@ -59,10 +62,10 @@ public class G2_BSF {
 
 	public static void main(String args[]) {
 		/*
-		1 --- 3
-		/ | \
-		0 | 5 -- 6
-		\ | /
+		 1 --- 3
+		/      | \
+		0      | 5 -- 6
+		\      | /
 		2 ---- 4
 		*/
 		int V = 7;

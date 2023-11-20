@@ -1,0 +1,18 @@
+Public: open to all class ----Public access is the least restrictive access level. A public class, method, 
+or field can be accessed from any other class. This is often used for methods and classes 
+that are intended for widespread use and interaction across different parts of the program.
+
+Protected: Protected access allows a class to expose its member variables and methods to its 
+subclasses and other classes in the same package. Protected members are not accessible outside 
+the package unless they are in a subclass. This is typically used for providing controlled access 
+to certain methods or fields, maintaining a balance between encapsulation and accessibility.
+
+Default (package-private):   open to package -----If no access modifier is specified, it defaults to package-private. 
+This means that the class or member is accessible within the same package but not from outside. 
+It provides encapsulation within the package and is commonly used when you want to hide certain 
+implementation details from classes in other packages.
+
+Private: open to class ----Private access is the most restrictive access level. Private members are only accessible 
+within the class they are declared. This is used to hide sensitive data from other classes, ensuring 
+that it is only accessible and modifiable through the methods provided by the class. It is a key aspect
+ of encapsulation, preventing direct access to critical data.

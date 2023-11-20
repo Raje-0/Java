@@ -1,0 +1,42 @@
+Exception handling in Java refers to the process of dealing with unexpected or exceptional events that 
+occur during the execution of a program. These events, known as exceptions, can disrupt the normal flow 
+of a program. Java provides a robust exception handling mechanism to handle such situations gracefully, 
+preventing the abrupt termination of the program.
+
+Here's an overview of how exception handling works in Java:
+
+Try Block: This is where the code that might throw an exception is placed. It is followed by 
+one or more catch blocks or a finally block, or both.
+
+Catch Block: When an exception occurs within the try block, Java looks for a corresponding catch 
+block that can handle the type of exception thrown. If a matching catch block is found, the exception 
+is caught and handled in that block. Each catch block is responsible for handling a specific type of 
+exception.
+
+Finally Block: The finally block is optional and is used to execute important code such as closing 
+resources, whether an exception is thrown or not. It is executed after the try block completes, 
+regardless of whether an exception occurred.
+
+Throw and Throws: The throw keyword is used to explicitly throw an exception. The throws keyword is 
+used in method signatures to indicate that the method might throw a specific type of exception.
+
+Types of exceptions in Java:
+
+Checked Exceptions: These are exceptions that are checked at compile time. This means that the 
+compiler forces the programmer to handle these exceptions. Examples of checked exceptions include 
+IOException, SQLException, etc.
+
+Unchecked Exceptions: Also known as runtime exceptions, these are not checked at compile time. 
+Examples include NullPointerException, ArrayIndexOutOfBoundsException, and ArithmeticException. 
+Programmers are not forced to handle these exceptions explicitly, but it is a good practice to 
+handle them appropriately.
+
+Error: These are serious, unrecoverable problems that should not be caught. Examples include 
+OutOfMemoryError and StackOverflowError. It is generally not recommended to handle these errors.
+
+Java's exception handling mechanism provides a structured way to manage errors and unexpected 
+behavior, making it easier to write robust and reliable code. Handling exceptions properly can 
+improve the overall stability and resilience of Java applications.
+
+
+

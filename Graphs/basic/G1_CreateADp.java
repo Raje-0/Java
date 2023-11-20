@@ -15,25 +15,7 @@ public class G1_CreateADp {
 
 	}
 
-//bfs
-	public static void bfs(ArrayList<Edge> graph[]) {
-		Queue<Integer> q = new LinkedList<>();
-		boolean vis[] = new boolean[graph.length];
-		q.add(0);
 
-		while (!q.isEmpty()) {
-			int curr = q.remove();
-			if (!vis[curr] == false) { // visit current
-				System.out.print(curr + " ");
-				vis[curr] = true;
-
-				for (int i = 0; i < graph[curr].size(); i++) {
-					Edge e = graph[curr].get(i);
-					q.add(e.dest);
-				}
-			}
-		}
-	}
 
 	public static void main(String[] args) {
 
