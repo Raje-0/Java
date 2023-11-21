@@ -1,9 +1,9 @@
-package arrayList;
+package c2_arrayList;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+// ArrayList > we can not change the size of array dynamically so we use ArrayList #new size = n+ n/2+1
 
-public class A1_Basics {
+public class A1_Basic {
 
 	public static void main(String[] args) {
 		// Creating an ArrayList of integers
@@ -14,11 +14,6 @@ public class A1_Basics {
 		numbers.add(20);
 		numbers.add(30);
 
-		Iterator<Integer> it = numbers.iterator();
-		
-		while (it.hasNext()) {
-			System.out.print(it.next()+" ");
-		}
 		// Accessing elements
 		int firstElement = numbers.get(0); // Returns 10
 
@@ -54,6 +49,5 @@ public class A1_Basics {
 
 		// Converting ArrayList to an array
 		Integer[] numArray = numbers.toArray(new Integer[0]);
-
 	}
 }

@@ -3,6 +3,16 @@ package set;
 import java.util.HashSet;
 import java.util.Set;
 
+/*  1.2 Set
+            - Properties:
+            - Does not allow duplicate elements.
+            - No specific order is guaranteed.
+              
+        1.2.1 HashSet
+        1.2.2 LinkedHashSet
+        1.2.3 TreeSet
+ * 
+ */
 public class HashSetExample {
 	public static void main(String[] args) {
 		// Creating a HashSet
