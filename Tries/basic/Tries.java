@@ -15,8 +15,8 @@ public class Tries {
 	public static Node root = new Node();
 
 	// insert in tries
-
-	public static void insert(String word) { // O(n)
+//lecture no 4
+	public static void insert(String word) { // O(L) L= length of largest word
 
 		// int len = word.length();
 		// int idx = 0;
@@ -32,9 +32,8 @@ public class Tries {
 		curr.eow = true;
 	}
 
-	// search
-
-	public static boolean search(String key) { // O(n)
+	// search> lecture 5
+	public static boolean search(String key) { // O(L)
 		int level = 0;
 		int len = key.length();
 		int idx = 0;
@@ -56,7 +55,7 @@ public class Tries {
 			insert(word);
 			System.out.println("inserted " + word);
 		}
-
+ 
 		System.out.println("thee -> " + search("thee"));
 		System.out.println("thor -> " + search("thor"));
 

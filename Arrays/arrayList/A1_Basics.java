@@ -1,6 +1,7 @@
 package arrayList;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class A1_Basics {
 
@@ -13,6 +14,15 @@ public class A1_Basics {
 		numbers.add(20);
 		numbers.add(30);
 
+//		Iterator<Integer> it = numbers.iterator();
+//		
+//		while (it.hasNext()) {
+//			System.out.print(it.next()+" ");
+//		}
+		Iterator< Integer> it =numbers.iterator();
+		while(it.hasNext()) {
+			System.out.print("value are = "+it.next());
+		}
 		// Accessing elements
 		int firstElement = numbers.get(0); // Returns 10
 
@@ -48,5 +58,6 @@ public class A1_Basics {
 
 		// Converting ArrayList to an array
 		Integer[] numArray = numbers.toArray(new Integer[0]);
+
 	}
 }

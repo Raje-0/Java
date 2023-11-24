@@ -1,0 +1,46 @@
+Collection Interface:
+
+add(E e)
+addAll(Collection<? extends E> c)
+size()
+isEmpty()
+contains(Object o)
+remove(Object o)
+List Interface (extends Collection):
+
+get(int index)
+set(int index, E element)
+indexOf(Object o)
+add(int index, E element)
+remove(int index)
+Set Interface (extends Collection):
+
+equals(Object o)
+hashCode()
+clear()
+Queue Interface (extends Collection):
+
+offer(E e)
+poll()
+peek()
+Map Interface:
+
+put(K key, V value)
+get(Object key)
+containsKey(Object key)
+containsValue(Object value)
+keySet()
+values()
+entrySet()
+ListIterator Interface (extends Iterator):
+
+hasNext()
+next()
+hasPrevious()
+previous()
+add(E e)
+These are the primary methods associated with each interface in the Java Collection Framework.
+
+
+
+

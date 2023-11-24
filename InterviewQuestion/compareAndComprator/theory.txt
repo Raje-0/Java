@@ -13,3 +13,4 @@ java.util
 The compare method is defined in the Comparator interface, and you can create multiple 
 comparators for a class to support different sorting orders.
 Comparator allows you to define custom ordering criteria.
+use compare mtd.

@@ -121,14 +121,15 @@ public class TrieQuestion {
 	}
 
 	public static void main(String args[]) {
-		String words[] = { "the", "a", "there", "their", "any", "thee" };
+		String words[] = { "i", "like", "sam", "samsung", "mobile", "ice" };
 		for (String word : words) {
 			insert(word);
-			System.out.println("inserted " + word);
-		}
 
-		System.out.println("thee -> " + search("thee"));
-		System.out.println("thor -> " + search("thor"));
+		}
+		//question 1
+		String key = "ilikesamsung";
+		System.out.println(wordBreak(key));
+		
 
 		// System.out.println(startsWith("the"));
 		// System.out.println(startsWith("thi"));
