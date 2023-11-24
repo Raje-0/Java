@@ -14,10 +14,14 @@ public class A1_Basics {
 		numbers.add(20);
 		numbers.add(30);
 
-		Iterator<Integer> it = numbers.iterator();
-		
-		while (it.hasNext()) {
-			System.out.print(it.next()+" ");
+//		Iterator<Integer> it = numbers.iterator();
+//		
+//		while (it.hasNext()) {
+//			System.out.print(it.next()+" ");
+//		}
+		Iterator< Integer> it =numbers.iterator();
+		while(it.hasNext()) {
+			System.out.print("value are = "+it.next());
 		}
 		// Accessing elements
 		int firstElement = numbers.get(0); // Returns 10
