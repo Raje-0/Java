@@ -1,0 +1,4 @@
+Can we only write try block without catch and finally block?
+Answer ----No , if we proceed then we will get - Syntax error, insert "Finally" to complete TryStatement",
+
+

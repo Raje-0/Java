@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package exceptionHandling;
 
 public class E2_Finally {
 
@@ -12,7 +12,7 @@ public class E2_Finally {
 			System.out.println("output is "+k);
 		}
 		catch (ArithmeticException e) {
-			System.err.println("error"); // we can use multiple catch to show exeption
+			System.err.println("error"); // we can use multiple catch to show exception
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("stay in your limit");
@@ -21,7 +21,7 @@ public class E2_Finally {
 			System.out.println("something is wrong");
 		}
 		finally {
-			System.out.println("bye"); //even error occur or not this will be excuted.
+			System.out.println("bye"); //even error occur or not this will be executed.
 		}
 
 	}

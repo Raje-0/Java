@@ -1,4 +1,4 @@
-package linkesList;
+package l1_linkesList;
 
 public class ReverseLL {
 	public static class Node {

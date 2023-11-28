@@ -5,7 +5,7 @@ import java.io.IOException;
  * using a try-catch block.
  * 
  *  throw keyword is used to throw an exception explicitly.
-* throw keyword is used inside mtd body.
+* throw keyword is used inside method body.
 * we can throw only one exception only one at a time.
 * to define exception
 * only used for single exception

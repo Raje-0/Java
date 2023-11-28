@@ -1,5 +1,7 @@
 package interfaces;
 
+//: A default method is a method defined in an interface with a default implementation. 
+//It can be overridden by classes that implement the interface.
 interface Demo {
 	void abc();
 
@@ -18,6 +20,7 @@ class Inplementor implements Demo {
 public class DefaultInterface {
 
 	public static void main(String[] args) {
+		// It can be overridden by classes that implement the interface.
 		Demo obj = new Inplementor();
 		obj.abc();
 		obj.show();
