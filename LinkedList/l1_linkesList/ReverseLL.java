@@ -39,10 +39,12 @@ public class ReverseLL {
 		}
 		
 	public 	void reverse() {
+		//3 Variable
 			Node prev=null;
 			Node curr=tail=head;
 			Node next;
 			
+			//4 step
 			while(curr!=null) {
 				next=curr.next;
 				curr.next=prev;

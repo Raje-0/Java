@@ -26,7 +26,7 @@ public class LinkedList {
 			head = tail = newNode;
 			return;
 		}
-		// step 2
+		// step 2 =assign new node next value = head
 		newNode.next = head;
 		// step 3
 		head = newNode;
