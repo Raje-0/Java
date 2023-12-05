@@ -1,0 +1,12 @@
+In Java, instance variables are variables declared within a class but outside any method, 
+constructor, or block. They belong to an instance of the class, meaning that each object 
+created from the class has its own copy of these variables.
+
+On the other hand, local variables are declared within a method, constructor, or block 
+and only exist within the scope of that method, constructor, or block. They are temporary 
+and are typically used for temporary storage or calculations within a specific method.
+
+The key difference is that instance variables are associated with the instance of a class
+(object), and their values persist as long as the object exists. Local variables, on the 
+other hand, are short-lived and exist only during the execution of the method or block 
+in which they are declared.

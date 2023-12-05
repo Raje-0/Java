@@ -1,0 +1,10 @@
+Q--Can we only write try block without catch and finally block?
+A--No , if we proceed then we will get - Syntax error, insert "Finally" to complete TryStatement",
+
+
+Q--If main method throw an exception then what will happen?
+A--JRE will handle
+
+
+Q--what is unreachable catch block?
+A--

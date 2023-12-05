@@ -1,6 +1,7 @@
 In Java, both StringBuffer and StringBuilder are classes that provide mutable sequences of characters. 
-They are used when you need to perform a lot of modifications on strings, and you want to avoid the performance 
-overhead associated with immutable strings (like those created with the String class).
+They are used when you need to perform a lot of modifications on strings, 
+and you want to avoid the performance overhead associated with immutable 
+strings (like those created with the String class).
 
 Here are the key differences between StringBuffer and StringBuilder from an interview perspective:
 
