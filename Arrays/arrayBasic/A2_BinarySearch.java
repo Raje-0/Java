@@ -1,6 +1,6 @@
 package arrayBasic;
 
-public class BinarySearch {
+public class A2_BinarySearch {
 	public static int binary(int arr[], int target) {
 		int s = 0, e = arr.length - 1;
 		while (s <= e) {

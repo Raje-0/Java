@@ -1,6 +1,6 @@
 package arrayBasic;
 
-public class ReverseArray {
+public class A3_ReverseArray {
 	public static void reverse(int[] arr) {
 		int start = 0;
 		int end = arr.length - 1;
