@@ -41,7 +41,7 @@ public class S1_ArrayList_Stack {
 		s.push(2);
 		s.push(3);
 		s.push(4);
-
+		System.out.println(s.peek());
 		while (!s.isEmpty()) {
 			System.out.println(s.peek());
 			s.pop();

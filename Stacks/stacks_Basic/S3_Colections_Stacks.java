@@ -19,7 +19,7 @@ public class S3_Colections_Stacks {
 
         // Popping an element from the stack
         int poppedElement = s.pop();
-        System.out.println("Popped Element: " + poppedElement);
+        System.out.println("top element: " + poppedElement);
 
         // Displaying the stack after popping
         System.out.println("Stack after popping: " + s);

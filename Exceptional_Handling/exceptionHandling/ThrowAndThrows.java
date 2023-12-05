@@ -1,10 +1,11 @@
+package exceptionHandling;
 import java.io.IOException;
 
 /*throw: Used to explicitly throw an exception. In the example, it throws a checked exception 
  * (IOException) within a method, and the calling method or block needs to handle this exception 
  * using a try-catch block.
  * 
- *throw keyword is used to throw an exception explicitly.
+ *  throw keyword is used to throw an exception explicitly.
 * throw keyword is used inside method body.
 * we can throw only one exception only one at a time.
 * to define exception
@@ -28,7 +29,7 @@ public class ThrowAndThrows {
 	 * calling method or block is responsible for handling the declared
 	 * exception(s).
 	 * 
-	 * * throws keyword is used to declare an exception. throw keyword is used with
+	 * * throw keyword is used to declare an exception. throw keyword is used with
 	 * method signature. we can handle multiple exception using throw keyword.. only
 	 * used for multiple exception it is followed by class(mtd) write beside method.
 	 */

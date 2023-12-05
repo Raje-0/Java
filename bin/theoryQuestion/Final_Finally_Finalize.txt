@@ -1,4 +1,4 @@
----final is a keyword used for constants, methods, and classes.
+---final is a keyword used for constants, methods(no overriding), and classes(no extend).
 
 ---finally is a block used in exception handling to ensure a piece of code is always executed.
 
