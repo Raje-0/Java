@@ -3,7 +3,6 @@
 	<classpathentry kind="src" path="Basic"/>
 	<classpathentry kind="src" path="OOPS"/>
 	<classpathentry kind="src" path="Exceptional_Handling"/>
-	<classpathentry kind="src" path="DSA"/>
 	<classpathentry kind="src" path="CollectionFramework"/>
 	<classpathentry kind="src" path="Java8Features"/>
 	<classpathentry kind="src" path="8_etc"/>

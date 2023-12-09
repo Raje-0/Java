@@ -1,8 +1,8 @@
-package basic;
+package graph1;
 
 import java.util.*;
 
-public class G1_CreateADp {
+public class G5_CreateADp {
 	static class Edge {
 		int src, dest, wt;
 
@@ -12,22 +12,19 @@ public class G1_CreateADp {
 			this.dest = d;
 			this.wt = w;
 		}
-
 	}
-
-
 
 	public static void main(String[] args) {
 
 		// TODO Auto-generated method stub
 		int v = 5;
-		ArrayList<Edge>[] graph = new ArrayList[5];
+		ArrayList<Edge>[] graph = new ArrayList[v]; //5 = no of vertex(node)
 		for (int i = 0; i < v; i++) {
 			graph[i] = new ArrayList<>();
 		}
 
 		// for 0 vertex
-		graph[0].add(new Edge(5, 1, 5));
+		graph[0].add(new Edge(0, 1, 5));
 
 		// for 1 vertex
 		graph[1].add(new Edge(1, 0, 5));

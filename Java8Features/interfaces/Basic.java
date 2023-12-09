@@ -1,4 +1,4 @@
-package j1_Functional_Interface;
+package interfaces;
 
 //Functional Interface
 @FunctionalInterface

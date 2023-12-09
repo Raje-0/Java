@@ -1,4 +1,4 @@
-package j2_LambdaExpression;
+package interfaces;
 
 interface P {
 }
