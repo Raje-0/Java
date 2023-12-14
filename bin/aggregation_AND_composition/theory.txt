@@ -1,0 +1,5 @@
+aggregation -both object can exist independently .    
+ex -car and driver
+
+composition- both objects can not exist independently. one object can not exist without owner object.
+ex-car and its engine
