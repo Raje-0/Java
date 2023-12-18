@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortingAlgorithms {
 
-	// Bubble Sort
+	// Bubble Sort = large comes in last
 	public static void bubbleSort(int[] arr) {
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++)
@@ -80,7 +80,7 @@ public class SortingAlgorithms {
 
 		// Bubble Sort
 		bubbleSort(arr.clone());
-		System.out.println("Bubble Sort: " + Arrays.toString(arr));
+		System.out.println("Bubble Sort:    " + Arrays.toString(arr));
 
 		// Selection Sort
 		selectionSort(arr.clone());
@@ -92,6 +92,6 @@ public class SortingAlgorithms {
 
 		// Quick Sort
 		quickSort(arr.clone(), 0, arr.length - 1);
-		System.out.println("Quick Sort: " + Arrays.toString(arr));
+		System.out.println("Quick Sort:     " + Arrays.toString(arr));
 	}
 }

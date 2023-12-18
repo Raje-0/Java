@@ -16,13 +16,13 @@ public class BuildTree {
 			return arr[start];
 		}
 		int mid = start + (end - start) / 2;
-		buildTree(arr, 2 * i + 1, start, mid);
-		buildTree(arr, 2 * i + 2, mid + 1, end);
+		buildTree(arr, 2 * i + 1, start, mid); //left
+		buildTree(arr, 2 * i + 2, mid + 1, end); //right
 		tree[i] = tree[2 * i + 1] + tree[2 * i + 2];
-		return arr[start];
+		return arr[i];
 
 	}
-
+/*
 	public int getSum(int left, int right) {
 		return getSumUtil(0, 0, n - 1, left, right);
 	}
@@ -36,7 +36,7 @@ public class BuildTree {
 		}
 		int mid = start + (end - start) / 2;
 		return getSumUtil(2 * i + 1, start, mid, left, right) + getSumUtil(2 * i + 2, mid + 1, end, left, right);
-	}
+	} */
 
 	public static void main(String[] args) {
 		int[] inputArray = { 1, 2, 3, 4, 5, 6, 7, 8 };
@@ -47,7 +47,7 @@ public class BuildTree {
 			System.out.print(segmentTree.tree[i] + " ");
 		}
 
-		int sum = segmentTree.getSum(1, 4);
-		System.out.println("\n\nSum of elements in the given range: " + sum);
+		//int sum = segmentTree.getSum(1, 4);
+	//	System.out.println("\n\nSum of elements in the given range: " + sum);
 	}
 }
