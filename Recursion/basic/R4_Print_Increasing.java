@@ -1,6 +1,6 @@
-package dsa4_Recursion;
+package basic;
 
-public class Print_Increasing {
+public class R4_Print_Increasing {
 	public static void printInc(int n) {
 		if (n == 1) {
 			System.out.print(n + " ");

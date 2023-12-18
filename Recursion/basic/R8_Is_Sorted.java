@@ -1,6 +1,6 @@
-package dsa4_Recursion;
+package basic;
 
-public class Is_Sorted {
+public class R8_Is_Sorted {
 	public static boolean isSorted(int arr[], int i) {
 		if (i == arr.length - 1) {
 			return true;

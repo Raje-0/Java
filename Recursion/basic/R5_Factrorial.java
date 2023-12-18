@@ -1,11 +1,13 @@
-package dsa4_Recursion;
+package basic;
 
-public class Factrorial {
+public class R5_Factrorial {
 	public static int fact(int n) {
+		//base case
 		if (n == 0) {
 			return 1;
 		}
-		int fnm1 = fact(n - 1);
+		
+		//kam +calling inner function
 		int fn = n * fact(n - 1);
 		return fn;
 	}

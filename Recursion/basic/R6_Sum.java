@@ -1,6 +1,6 @@
-package dsa4_Recursion;
+package basic;
 
-public class Sum {
+public class R6_Sum {
 	public static int calcSum(int n) {
 		if (n == 1) {
 			return 1;

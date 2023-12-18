@@ -1,4 +1,4 @@
-package dsa5_Divide_and_Conquer;
+package basic;
 
 import java.util.Scanner;
 

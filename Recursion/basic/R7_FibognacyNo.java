@@ -1,6 +1,6 @@
-package dsa4_Recursion;
+package basic;
 
-public class FibognacyNo {
+public class R7_FibognacyNo {
 	public static int fib(int n) {
 		if (n == 0 || n == 1) {
 			return n;

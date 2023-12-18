@@ -1,6 +1,6 @@
-package dsa5_Divide_and_Conquer;
+package basic;
 
-public class D2_Quick_Sort {
+public class Quick_Sort {
 	public static void printArr(int arr[]) {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
