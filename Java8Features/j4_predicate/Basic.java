@@ -2,7 +2,7 @@ package j4_predicate;
 
 import java.util.function.Predicate;
 
-// A predicate is a function with a single argument and returns boolean value.
+// A predicate is a functional interface with a single argument and returns boolean value.
 public class Basic {
 
 	public static void main(String[] args) {
