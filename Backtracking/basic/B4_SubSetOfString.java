@@ -1,6 +1,6 @@
 package basic;
 
-public class SubSetOfString {
+public class B4_SubSetOfString {
 	public static void findsubSet(String str, String ans, int i) {
 		// base case
 		if (i == str.length()) {
@@ -10,9 +10,10 @@ public class SubSetOfString {
 			System.out.println(ans);
 			return;
 		}
-		// yes
+		//recursion
+		// yes choice
 		findsubSet(str, ans + str.charAt(i), i + 1);
-		// no
+		// no choice
 		findsubSet(str, ans, i + 1);
 	}
 

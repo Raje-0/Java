@@ -1,15 +1,17 @@
 package basic;
 
-public class BT1 {
+public class B3_BacktrackOnArray {
 
 	public static void backTracking(int arr[], int i, int value) {
+		//base case
 		if (i == arr.length) {
 			printarr(arr);
 			return;
 		}
-
+        //recursion
 		arr[i] = value;
 		backTracking(arr, i + 1, value + 1);
+		//backtrack step
 		arr[i] = arr[i] - 2;
 	}
 
