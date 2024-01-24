@@ -3,7 +3,7 @@ package basic;
 public class Tries {
 	static class Node {
 		Node[] children = new Node[26]; // 26 Alphabet
-		boolean eow; // endOfWord
+		boolean eow= false; // endOfWord
 
 		public Node() {
 			for (int i = 0; i < 26; i++) {
