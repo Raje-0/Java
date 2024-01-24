@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Scanner;
 
-class RotatedSortedArraySearch {
+class X3_RotatedSortedArraySearch {
 	private static int search(int[] nums, int target) {
 		int start = 0;
 		int end = nums.length - 1;

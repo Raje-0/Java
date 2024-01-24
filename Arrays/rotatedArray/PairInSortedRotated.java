@@ -1,9 +1,5 @@
 package rotatedArray;
 
-//Java program to find a pair with a given
-//sum in a sorted and rotated array
-import java.io.*;
-
 class PairInSortedRotated {
 	// This function returns true if arr[0..n-1]
 	// has a pair with sum equals to x.

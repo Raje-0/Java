@@ -1,6 +1,6 @@
 package basic;
 
-public class FindPermutationOfString {
+public class B6_FindPermutationOfString {
 	public static void find(String str, String ans) {
 //case case
 		if (str.length() == 0) {
