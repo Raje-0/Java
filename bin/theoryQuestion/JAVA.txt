@@ -47,8 +47,7 @@ They provide a concise way to express anonymous functions (function without a na
 Useful for writing more readable and expressive code, especially when working with functional interfaces.
 Example:
 
-java
-Copy code
+
 // Before Java 8
 Runnable runnable = new Runnable() {
     @Override
@@ -66,8 +65,7 @@ The @FunctionalInterface annotation can be used to ensure that an interface is
 intended to be used as a functional interface.
 Example:
 
-java
-Copy code
+
 @FunctionalInterface
 interface MyFunctionalInterface {
     void myMethod();
@@ -79,8 +77,7 @@ Streams allow for parallel processing of data, making it easier to write paralle
 They provide a fluent API for data manipulation and transformation.
 Example:
 
-java
-Copy code
+
 List<String> myList = Arrays.asList("a1", "a2", "b1", "c2", "c1");
 
 myList
