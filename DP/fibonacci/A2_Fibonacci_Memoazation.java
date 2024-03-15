@@ -5,7 +5,7 @@ public class A2_Fibonacci_Memoazation {
 		if (n == 0 || n == 1) {
 			return n;
 		}
-		if (f[n] != 0) {
+		if (f[n] != 0) { 
 			return f[n];
 		}
 		f[n] = fib(n - 1, f) + fib(n - 2, f);
