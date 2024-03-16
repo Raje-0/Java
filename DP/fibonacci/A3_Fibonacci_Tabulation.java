@@ -1,6 +1,6 @@
 package fibonacci;
 
-public class A3_Fibonacci_Tabulation {
+public class A3_Fibonacci_Tabulation {   //o(N)
 	public static int fibTabulation(int n) {
 		int dp[] = new int[n + 1];
 		dp[0] = 0;
